@@ -213,10 +213,8 @@ h1 {
   flex-wrap: wrap;
 }
 
-section {
-  display: flex:
-}
-form {
-
+.myform {
+  position: fixed;
+  padding: 50px;
 }
 }
