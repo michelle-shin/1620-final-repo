@@ -187,3 +187,22 @@ input[type=text]:focus {
  background: var(--darkGreen);
  color: var(--white);
 }
+
+
+@media screen and (max-width: 600px) {
+nav ul {
+  flex-direction: column;
+  align-items: flex-start;
+  
+  padding: 8px 24px;
+  margin: 30%;
+  }
+
+
+ul {
+  background-color: var(--navBg);
+  
+}
+
+
+}
