@@ -201,8 +201,22 @@ nav ul {
 
 ul {
   background-color: var(--navBg);
-  
 }
 
+h2 {
+  flex-wrap: wrap;
+  font-size: 4em;
+}
 
+h1 {
+  font-size: 4em;
+  flex-wrap: wrap;
+}
+
+section {
+  display: flex:
+}
+form {
+
+}
 }

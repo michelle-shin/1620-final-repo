@@ -1,5 +1,4 @@
 const toggleSwitch = document.querySelector('toggle');
-
 function changeMode(event) {
     if (event.target.checked) {
         document.documentElement.setAttribute('theme', '.--light-theme');
@@ -8,12 +7,12 @@ function changeMode(event) {
         document.documentElement.setAttribute('theme', 'light')
     }
 }
-toggleSwitch.addEventListener('click', changeMode);
+    toggleSwitch.addEventListener('click', changeMode);
 
 
 
 
-function create() {
+function createMessage() {
     let submitButton = document.querySelector('button')
     submitButton.addEventListener('click', (e) => {
         newContact = {
