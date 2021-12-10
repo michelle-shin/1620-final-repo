@@ -13,3 +13,23 @@ toggleSwitch.addEventListener('click', changeMode);
 
 
 
+function create() {
+    let submitButton = document.querySelector('button')
+    submitButton.addEventListener('click', (e) => {
+        newContact = {
+            email: '',
+            name: '',
+            service: '',
+            message: '',
+        }
+        newContact.email = inputContactEmail.value
+        newContact.name = inputContactName.value
+        newContact.service = inputContactService.value
+        newContact.message = inputContactMessage.value 
+        console.log(newContact)
+    } )
+}
+
+
+
+
